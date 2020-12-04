@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Feed from '../Feed'
+
 import {Container, 
         Banner, 
         Avatar, 
@@ -43,7 +45,8 @@ const ParfilePage: React.FC = ()  => {
                        <strong>1.2M </strong> followers
                    </span>
                </Followage>
-            </ProfileData> 
+            </ProfileData>
+            <Feed /> 
         </Container>
 
     )
