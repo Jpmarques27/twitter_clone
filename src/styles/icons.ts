@@ -10,3 +10,4 @@ export {
   export { Person, Cake, Favorite ,  } from 'styled-icons/material';
   export { ArrowLeft } from 'styled-icons/heroicons-solid';
   export { Chat , Refresh} from 'styled-icons/heroicons-outline';
+  export { Twitter } from '@styled-icons/boxicons-logos/Twitter';
