@@ -1,5 +1,4 @@
 import React from 'react' 
-
 import Button from '../Buttom'
 
 import { Container, 
@@ -11,7 +10,10 @@ import { Container,
     EmailIcon,
     ProfilIcon,
     FavoriteIcon,
-
+    ExitIcon,
+    Botside,
+    Avatar,
+    ProfileData,
      } from './style'
 
 const MenuBar: React.FC = () =>{
@@ -52,6 +54,15 @@ const MenuBar: React.FC = () =>{
                 </Button>
 
             </Topside>
+            <Botside>
+                <Avatar/>
+
+                <ProfileData>
+                    <strong>João Marques</strong>
+                    <span>@joao_o_marques</span>
+                </ProfileData>
+                <ExitIcon />
+            </Botside>
         </Container>
 
     )

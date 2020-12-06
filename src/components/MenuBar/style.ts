@@ -16,6 +16,7 @@ export const Container = styled.div`
     @media(min-width:500px){
         display:flex;
         flex-direction:column;
+        justify-content: space-between;
 
         position:sticky;
         top:0;
@@ -23,7 +24,7 @@ export const Container = styled.div`
 
         padding: 9px 19px 20px;
 
-        max-height: 100vw;
+        max-height: 100vh;
         overflow-y:auto;
     }
 `;
@@ -136,4 +137,57 @@ ${iconCSS}
 
 export const FavoriteIcon = styled(FavoriteBorder)`
 ${iconCSS}
+`;
+
+export const ExitIcon= styled(ExitToApp)`
+    display:none;
+
+    @media(min-width: 1280px){
+        display:inline-block;
+        width:25px;
+        height:25px;
+
+        color: var(--white);
+        
+        margin-left: 30px;
+        cursor: pointer;
+
+        &:hover{
+            >path{
+                color:var(--like);
+            }
+        }
+    }
+`;
+
+
+export const Botside = styled.div`
+    margin-top:20%;
+
+    display:flex;
+    align-items:center;
+`;
+export const Avatar = styled.div`
+    width:39px;
+    height:39px;
+
+    flex-shrink:0;
+
+    border-radius: 50%;
+    background-color: var(--gray);
+`;
+export const ProfileData = styled.div`
+    display:none;
+
+    @media(min-width: 1280px){
+        display:flex;
+        flex-direction:column;
+
+        margin-left:10px;
+        font-size: 14px;
+
+        >span{
+            color:var(--gray);
+        }
+    }
 `;

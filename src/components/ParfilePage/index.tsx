@@ -23,7 +23,7 @@ const ParfilePage: React.FC = ()  => {
                 <EditButton outlined>Editar perfil </EditButton>
 
                 <h1>João Marques</h1>
-                <h2>@joao_27_marques</h2>
+                <h2>@joao_o_marques</h2>
                 <p>
                     Developer student
                 </p>
